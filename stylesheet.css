@@ -826,3 +826,23 @@ textarea {
   background-clip: text;
   padding: 12px;
 }
+@media (max-width: 768px) {
+  .services {
+    padding: 40px 20px;
+    justify-content: center;
+  }
+
+  .service-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .overlay {
+    opacity: 1; /* mobile has no hover */
+  }
+}
+@media (max-width: 768px) {
+  .hover-card .overlay {
+    opacity: 1;
+  }
+}
